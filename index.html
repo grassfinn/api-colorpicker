@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Color Scheme Picker</h1>
+    <main>
+      <form action="">
+          <div class="container flex">
+            <input type="color"  id="user-color" class="flex-item"/>
+            <select id="color-select" class="flex-item">
+              Select a Value
+            </option>
+            <option value="monochrome" id="value1" selected>Monochrome</option>
+            <option value="monochrome-dark" id="value2">Monochrome-dark</option>
+            <option value="monochrome-light" id="value3">Monochrome-light</option>
+            <option value="analogic" id="value4">Analogic</option>
+            <option value="complement" id="value5">Complement</option>
+            <option value="analogic-complement" id="value6">Analogic-complement</option>
+            <option value="triad" id="value6">Triad</option>
+          </select>
+          <button id="get-scheme" class="flex-item">Get Color Scheme</button>
+      </div>
+        </form>
+        <div class="container">
+          <section class="flex">
+              <div class="flex-col">
+                <div class="color-example" id="c1"></div>
+                <p class="color-name">c1</p>
+              </div>
+              <div class="flex-col">
+                <div class="color-example" id="c2"></div>
+                <p class="color-name">c2</p>
+              </div>
+              <div class="flex-col">
+                <div class="color-example" id="c3"></div>
+                <p class="color-name">c3</p>
+              </div>
+              <div class="flex-col">
+                <div class="color-example" id="c4"></div>
+                <p class="color-name">c4</p>
+              </div>
+              <div class="flex-col">
+                <div class="color-example" id="c5"></div>
+                <p class="color-name">c5</p>
+              </div>
+              <div class="flex-col">
+                <div class="color-example" id="c6"></div>
+                <p class="color-name">c6</p>
+              </div>
+          </div>
+        </section>
+    </main>
+    <footer>
+      <h2>About</h2>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

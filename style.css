@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+form > .flex {
+    gap: 10px;
+}
+
+.flex-item {
+    max-width: 125x;
+    min-width: 50px
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 2em;
+    min-width: 375px;
+    /* max-width:800px; */
+}
+
+.color-example {
+    width: 100px;
+    height: 500px;
+    border-radius: 20px;
+    transform: scale(1);   
+    transition: .5s; 
+}
+
+.color-example:hover, .color-example:focus{
+    transform: scale(1.05);
+    border: 2px solid black;
+    cursor: pointer;
+}
